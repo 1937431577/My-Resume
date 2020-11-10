@@ -1,0 +1,48 @@
+
+ 
+ #information{
+  display:flex; 
+  flex-direction:row;  
+}
+.one,.two,.three,.four{
+  margin-left: 5%;
+
+}
+.one span,.two span{
+  display: block;
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.three span{
+  display: block;
+  width: 270px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+.four{
+  margin-top: 5px;
+}
+#skill,#Self-evaluation{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+#skill p,#Self-evaluation p{
+  margin-left: 6%;
+  display: block;
+  width: 700px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+h4{
+ font-size: 15px;
+ padding-left: 26px;
+ }

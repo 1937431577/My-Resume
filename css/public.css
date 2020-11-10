@@ -1,0 +1,65 @@
+
+body{
+  background: url(../img/Clover.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  }
+
+
+#XM,#MyResume{
+border:50px;
+border-radius: 5px;
+/* background: url(); */
+position: 80px;
+background-size: 100% auto;
+width: 980px;
+height: 100%;
+margin-left:auto;
+margin-right:auto;
+background-color:rgba(247, 242, 239, 0.8);
+ }  
+ .top-my p{
+  font-size:40px;
+  padding-left: 10%;
+ }  
+ .top-my span{
+  padding-left: 10%;
+  font-size: 18px;
+ }
+ #top{
+   display:flex;
+   flex-direction:row;
+ }
+ .top-my{
+  flex:1;
+  margin-left: 10%;
+ }
+ .top-xx{
+   flex:1;
+   margin-right: -10%;
+   font-size: 18px;
+   margin-top: 6%;
+ }
+ .top-xx img{
+  width: 18px;
+  height: 18px;
+  margin-top: 10px;
+ }
+ .xmjy,.jbxx{
+   text-decoration: none;
+ }
+ .xmjys ,.jbxxs{
+  border:3px solid rgb(92, 91, 91);
+  padding:0 3px;
+}
+ #Git{
+  margin-right: 10px;
+  display:flex;
+  flex-direction:row;
+  
+}
+#Git img{
+  width: 18px;
+  height: 18px;
+}
